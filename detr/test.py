@@ -122,7 +122,7 @@ def get_args_parser():
 
     parser.add_argument('--output_dir', default='/home/chiara/SCHEDULING/detr_experiments/detr_test_results/imgs',
                         help='path where to save the results, empty for no saving')
-    parser.add_argument('--device', default='cpu',
+    parser.add_argument('--device', default='cuda',
                         help='device to use for training / testing')
     parser.add_argument('--resume', default='/home/chiara/SCHEDULING/GNN/detr/checkpoints/checkpoint.pth',
                         help='resume from checkpoint')
